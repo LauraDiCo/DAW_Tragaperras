@@ -1,4 +1,4 @@
-/*Laura DiCo - Desarrollo Web Entorno Cliente - PEC Desarrollo UF3 - La tragaperras o Slot Machine*/
+/* Laura DiCo - Desarrollo Web Entorno Cliente - PEC Desarrollo UF3 - La tragaperras o Slot Machine*/
 
 
 //Las imágenes deberán obtenerse a partir del siguiente array que deberá declararse al comienzo del fichero JS del proyecto:
