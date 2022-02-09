@@ -1,5 +1,5 @@
 # DAW_Tragaperras
-DAW Ilerna - Desarrollo Web Entorno Cliente - PEC desarrollo - Máquina tragaperras
+CURSO 2021/2022 -  DAW Ilerna - Desarrollo Web Entorno Cliente - PEC desarrollo - Máquina tragaperras
 
 Se facilitan 3 archivos: index.html, script.js y style.css, además de todas las imágenes facilitadas en la PEC para la realización de la máquina tragaperras. 
 El fondo es creado por mi. 
