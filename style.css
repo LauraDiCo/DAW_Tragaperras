@@ -1,0 +1,126 @@
+/*Laura Diéguez Conejo - Desarrollo Web Entorno Cliente - PEC Desarrollo UF3 - La tragaperras o Slot Machine*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body {
+	line-height: 1;
+  font-family: Impact;
+  background-color: black;
+  border: 4px solid rgb(209, 159, 20);
+  display: flex; 
+}
+
+.contenedor {
+  color:rgb(209, 159, 20);
+  justify-content: center;
+  align-items: center;
+  font-weight: 250;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.background {
+  background-image: url(img/fondo.jpg);
+  color:rgb(209, 159, 20);
+  display: flex;
+  width: 833px;
+  height: 580px;
+  position: relative;
+  flex-direction: column;
+  justify-content:last baseline;
+}
+
+.imagen {
+  width:75px;
+}
+
+#imagen1 {
+  position: absolute;
+  top: 260px;
+  left: 220px;
+}
+
+#imagen2 {
+  position: absolute;
+  top: 260px;
+  left: 360px;
+}
+
+#imagen3 {
+  position: absolute;
+  top: 260px;
+  left: 490px;
+}
+
+#palanca {
+  position: absolute;
+  top: 100px;
+  right: 63px;
+  cursor: pointer;
+}
+
+#palancaDown {
+  cursor: pointer;
+  display: none;
+  position: relative;
+  top: 120px;
+}
+.panel {
+  overflow-y: auto;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  box-shadow: balck inset;
+  flex-direction: column;
+  padding: 2px;
+  border-radius: 15px;
+  width: 160px;
+  height: fit-content;
+  max-height: 250px;
+  background-color: rgb(85, 78, 60);
+  opacity:unset;
+}
+
+.button-regular{
+cursor: pointer;
+}
+
+.credito {
+  font-size: 20px;
+}
+
+.historial{
+  font-size: 15px;
+  font-weight: 250;
+}
+
+#introMonedas {
+  text-align: center;
+  width: 45px;
+  padding: 6px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(209, 159, 20);
+  color: rgb(99, 78, 22);
+}
+
+.button-regular {
+  padding: 10px 5px;
+  background-color: rgb(158, 126, 39)t;
+  color: rgb(209, 159, 20);
+  border-radius: 5px;
+  border: none
+}
+
+.button-regular:hover {
+  background-color: rgb(209, 159, 20);
+  box-shadow: 0px 0px 15px rgb(0, 0, 0, 1);
+  color: rgb(68, 63, 49);
+  border-radius: 5px;
+  border: none;
+}
+
+ul {
+	list-style: none;
+}
+
+

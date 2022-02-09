@@ -1,0 +1,72 @@
+<!--Laura Diéguez Conejo - Desarrollo Web Entorno Cliente - PEC Desarrollo UF3 - La tragaperras o Slot Machine-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>SLOT MACHINE</title>
+  <link rel="icon" type="image/x-icon" href="img/dollar.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
+  <link href="https:fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+    <div class="contenedor">
+      <div class="background">
+        
+        <div id="imagen1">
+          <img class="imagen" src="img/penguin.png" alt="">
+        </div>
+        <div id="imagen2">
+          <img class="imagen" src="img/penguin.png" alt="">
+        </div>
+        <div id="imagen3">
+          <img class="imagen" src="img/penguin.png" alt="">
+        </div>
+        <div id="palanca">
+          <img id="palancaUp" src="img/palancaUP.png" alt="">
+          <img id="palancaDown" src="img/palancaDown.png" alt="">
+        </div>
+
+        <div class="panel">
+            <div class="credito">
+              <p> Inserte crédito </p> 
+
+            </div>
+
+            <div id="monedas">
+              <span class="label-regular">Crédito </span>
+              <span><input type="number" name="monedas" id="introMonedas"></span>
+              <span><button class="button-regular" id="botonAceptar">Aceptar</button></span>
+            </div>
+
+
+            <div id="monedasActuales">
+              <span class="label-regular"><p>Total ganancias</p></span>
+              <span class="label-strong" id="monedasActuales"></span>
+            </div>
+
+            <div>
+              <span><button class="button-regular" id="botonCobrar">Cobrar</button></span>
+            </div>
+
+        </div>
+
+      <div class="panel" id="historial">
+        <div class="credito">
+          Historial
+        </div>
+        <div id="historial"></div>
+      </div>
+
+    </div>
+  </div> 
+
+  <script src ="script.js"></script>
+
+</body>
+
+</html>
